@@ -1,6 +1,6 @@
 CodeBook for the Tidy Dataset
 =============================
-This code book provides the necessary details to understand how the _Tidy Dataset_ was created, why it was created and how to interpret the data in file.
+This code book provides the necessary details to understand how the _Tidy Dataset_ was created, why it was created and how to interpret the data in the file.
 
 Study Design
 ============
@@ -398,5 +398,5 @@ In additon to the above 86 measurement attributes there ar 3 other attributes as
 <li>1.    subject_id    An integer [1:100] identifying the subject
 <li>2.    activity_id   An integer [1:6] identifying the activity
 <li>3.    activity_name A string describing the activity (e.g. WALKING)
-<li>4-89  86 numeric measurements listed above
+<li>4-89  86 numeric measurements listed above.  These measurements are the average (mean) by subject and activity of the original data.
 </ul>
