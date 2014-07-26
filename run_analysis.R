@@ -174,6 +174,16 @@ colnames(avg_By_Subj_Acty)
 #===================================================================
 #  (60) Rename the "std|mean" columns to something more meaningful.
 #       Also, make them R friendly.
+#       (a) leading "t" replaced by "time"
+#       (b) leading "f" replaced by "freg"
+#       (c) "-std replaced by "Std"
+#       (d) "-mean" replaced by "Mean"
+#       (e) "(t" replaced by "Time"
+#       (f) opening brackets are removed
+#       (g) closing brackets are removed
+#       (h) commas replaced by underscore
+#       (i) hyphens replaced by underscore
+#       (j) "gravity" replaced by "Gravity"
 #===================================================================
 
 names(avg_By_Subj_Acty) <- sub("^t", "time", names(avg_By_Subj_Acty) )
