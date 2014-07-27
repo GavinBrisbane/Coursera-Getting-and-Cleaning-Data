@@ -300,7 +300,7 @@ The following attributes were selected:-
 
 Standard Deviation and Mean Attributes Renamed
 -----------------------------------------------
-The following features match by _sequence number_ to the orignal names.
+The following features match by _sequence number_ to the orignal names.   Note that in the delivered _tidy dataset_ each of these measures is the mean by subject and activity.  This aspect is not incorporated into the column names.  I have chosen to keep the names as closely aligned to the source as possible.  
 <ol>
 <li>"timeBodyAccMean_X"                  
 <li> "timeBodyAccMean_Y"                     
